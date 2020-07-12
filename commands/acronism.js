@@ -54,6 +54,6 @@ exports.conf = {
 exports.help = {
   name: "acronism",
   category: "Playful",
-  description: "Starts an Acronism game where you'll be given a sentence, and you must finds it correspondent acronym.",
+  description: "Starts an Acronism game where you'll be given a sentence, and you must find it correspondent acronym.",
   usage: "acronism"
 };
