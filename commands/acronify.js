@@ -7,7 +7,7 @@ exports.run = async (client, message, args) => {
   const embed = new client.discord.RichEmbed()
     .setColor("#07a702")
     .setTitle(words)
-    .setDescription(`${acronym(words)}.`);
+    .setDescription(acronym(words));
   message.channel.send(embed);
 };
 exports.conf = {
