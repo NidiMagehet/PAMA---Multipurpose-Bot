@@ -1,4 +1,4 @@
-exports.run = async (client, message) => { // eslint-disable-line no-unused-vars
+exports.run = async (client, message) => {
   try {
     const baka = await client.nekoslife.sfw.baka();
     const embed = new client.discord.RichEmbed()
