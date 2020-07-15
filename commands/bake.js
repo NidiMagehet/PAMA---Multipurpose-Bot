@@ -4,7 +4,7 @@ let color = "";
 let title = "";
 let failedTitle = "";
 let failedDesc = "";
-exports.run = async (client, message, [food]) => { // eslint-disable-line no-unused-vars
+exports.run = async (client, message, [food]) => {
     let desc = await tastes.random();
   if (!food) return message.reply("You need to bake something.");
   if (food.toLowerCase() === "bread") {
