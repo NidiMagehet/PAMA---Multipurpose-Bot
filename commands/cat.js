@@ -1,6 +1,5 @@
 const superagent = require("superagent");
 exports.run = async (client, message) => {
-  //https://catfact.ninja/fact
   let {
     body
   } = await superagent
