@@ -8,7 +8,7 @@ exports.run = async (client, message, args) => {
       .setDescription("The result is " + math.evaluate(args.join(" ")));
     message.channel.send(embed);
   } catch (err) {
-    message.channel.send('Their was an error!\n' + err).catch();
+    message.channel.send("Their was an error!\n" + err).catch();
   };
 };
 exports.conf = {
@@ -18,8 +18,8 @@ exports.conf = {
   permLevel: "User"
 };
 exports.help = {
-  name: 'calc',
-  category: 'Educational',
-  description: 'Performs some calculations just for you, how appeasing.',
-  usage: 'calc [equation]'
+  name: "calc",
+  category: "Educational",
+  description: "Performs some calculations just for you, how appeasing.",
+  usage: "calc [equation]"
 };
